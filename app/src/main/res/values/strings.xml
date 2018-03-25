@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Currency Converter</string>
+    <string name="edittext_amount_hint">Enter amount in pounds</string>
+    <string name="button_convert_text">Convert</string>
+</resources>
