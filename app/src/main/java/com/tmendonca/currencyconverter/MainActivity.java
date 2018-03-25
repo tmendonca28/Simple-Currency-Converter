@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     public void convertCurrency (View view) {
         EditText editTextAmount = findViewById(R.id.editTextAmount);
 
-        double amount = Float.parseFloat(editTextAmount.getText().toString());
+        double amount = Double.parseDouble(editTextAmount.getText().toString());
 
         double amount_in_ksh = amount*CONVERSION_FROM_POUNDS_TO_KSH_FACTOR;
         DecimalFormat df = new DecimalFormat("#.##");
